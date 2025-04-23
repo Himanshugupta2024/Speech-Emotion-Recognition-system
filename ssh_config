@@ -1,0 +1,4 @@
+Host huggingface.co
+    Hostname huggingface.co
+    Port 443
+    User git

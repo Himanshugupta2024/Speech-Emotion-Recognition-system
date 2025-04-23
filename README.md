@@ -2,14 +2,29 @@
 
 A real-time system for recognizing emotions and identifying speakers from audio input, built with Python, PyTorch, and FastAPI.
 
-## Features
+## Description
 
-- Real-time audio processing
-- Emotion recognition from speech
-- Speaker identification
-- RESTful API interface
-- Real-time visualization dashboard
-- Performance monitoring and logging
+This project implements a Speech Emotion Recognition (SER) and Speaker Identification system using audio processing and deep learning models. The system can analyze audio recordings to detect emotions and identify speakers through a user-friendly web interface.
+
+## Key Features
+
+- **Emotion Detection**: Analyzes audio to identify 8 emotions (Neutral, Happy, Sad, Angry, Fearful, Disgusted, Surprised, Calm)
+- **Audio Feature Extraction**: Extracts and visualizes waveform, spectrogram, MFCC, pitch contour, energy, and zero crossing rate
+- **Interactive Web Interface**: Record audio directly through the browser or upload audio files
+- **Real-time Analysis**: Process audio files with instant visual feedback
+- **Speaker Management**: Register and identify different speakers
+- **Comprehensive Visualizations**: View detailed audio analysis through an intuitive dashboard
+- **RESTful API Interface**: Programmatic access to all functionality
+- **Performance Monitoring**: Real-time system metrics and logging
+
+## Technologies Used
+
+- **Backend**: Python, FastAPI, PyTorch, Librosa
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Database**: PostgreSQL, Redis
+- **Infrastructure**: Docker, Kubernetes
+- **Monitoring**: Prometheus, Grafana
+- **Testing**: Pytest, Coverage
 
 ## Requirements
 
@@ -87,7 +102,7 @@ alembic upgrade head
 ## Project Structure
 
 ```
-speech-emotion-recognition/
+Speech-Emotion-Recognition-system/
 ├── src/                    # Source code
 │   ├── api/               # API endpoints
 │   ├── core/              # Core functionality
@@ -135,4 +150,4 @@ View at `docs/_build/html/index.html`
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.

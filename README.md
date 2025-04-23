@@ -23,8 +23,8 @@ A real-time system for recognizing emotions and identifying speakers from audio 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/speech-emotion-recognition.git
-cd speech-emotion-recognition
+git clone https://github.com/Himanshugupta2024/Speech-Emotion-Recognition-system.git
+cd Speech-Emotion-Recognition-system
 ```
 
 2. Create and activate virtual environment:

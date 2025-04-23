@@ -1,3 +1,16 @@
+---
+title: Speech Emotion Recognition Demo
+emoji: 🗣️
+colorFrom: blue
+colorTo: green
+sdk: gradio # Or streamlit
+sdk_version: 3.35.2 # Specify Gradio/Streamlit version if needed, check latest
+python_version: 3.9 # Specify Python version if needed
+app_file: app.py
+pinned: false
+# Add other metadata if needed, like license: apache-2.0
+---
+
 # Speech Emotion Recognition System
 
 A real-time system for recognizing emotions and identifying speakers from audio input, built with Python, PyTorch, and FastAPI.
@@ -72,7 +85,7 @@ uvicorn src.api.main:app --reload
 
 1. Build the development image:
 ```bash
-docker build -t ser-system:dev -f docker/Dockerfile.dev .
+docker build -t ser-system:dev -f docker/Dockerfile.dev .`
 ```
 
 2. Run the container:
@@ -151,3 +164,5 @@ View at `docs/_build/html/index.html`
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

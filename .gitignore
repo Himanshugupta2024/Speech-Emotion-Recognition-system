@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Distribution
+*.log
+*.pot
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Model files
+models/
+*.pt
+*.pth
+*.onnx
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Database
+*.db
+*.sqlite3
+
+# Documentation
+docs/_build/
+
+# Cache
+.cache/
+.pytest_cache/
+__pycache__/
+
+# Logs
+logs/
+*.log 

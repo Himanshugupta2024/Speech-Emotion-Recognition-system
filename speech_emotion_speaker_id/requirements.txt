@@ -1,0 +1,11 @@
+tensorflow>=2.4.0
+numpy>=1.19.5
+pandas>=1.1.5
+librosa==0.8.1
+soundfile==0.10.3
+scikit-learn==0.24.2
+matplotlib>=3.3.4
+pyaudio==0.2.11
+wave
+tqdm>=4.62.0
+seaborn>=0.11.1 
